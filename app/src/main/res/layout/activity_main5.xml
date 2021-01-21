@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity5"
+    android:orientation="vertical"
+    android:background="@drawable/img27">
+
+
+    <TextView
+        android:id="@+id/adm"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="30sp"
+        android:text="ADMIN PRIVILEGES"
+        android:textColor="#F44336"
+        android:textSize="40dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal"
+        >
+
+        <Button
+            android:id="@+id/add"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="0.25"
+            android:backgroundTint="#FFEB3B"
+            android:onClick="userAdd"
+            android:text="ADD USER"
+            android:textColor="#F44336" />
+
+        <Button
+            android:id="@+id/delete"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="0.25"
+            android:backgroundTint="#FFEB3B"
+            android:onClick="userDelete"
+            android:text="DELETE USER"
+            android:textColor="#F44336" />
+
+        <Button
+            android:id="@+id/update"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="0.25"
+            android:backgroundTint="#FFEB3B"
+            android:onClick="userUpdate"
+            android:text="UPDATE USER"
+            android:textColor="#F44336" />
+
+        <Button
+            android:id="@+id/display"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="0.25"
+            android:backgroundTint="#FFEB3B"
+            android:onClick="userDisplay"
+            android:text="DISPLAY"
+            android:textColor="#F44336" />
+
+    </LinearLayout>
+
+</LinearLayout>
